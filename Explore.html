@@ -1,35 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> <!-- Declares the language of the document -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Empty House</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8"> <!-- Defines the character encoding for the HTML document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures the webpage is responsive on different devices -->
+    <title>The Empty House</title> <!-- Title that appears on the browser tab -->
+    <link rel="stylesheet" href="styles.css"> <!-- Links to the external CSS file for styling -->
 </head>
 <body>
-    <div class="container">
+    <div class="container"> <!-- Container for the entire content of the page -->
         <header>
-            <h1>Mediocre Ending: An Empty Victory</h1>
+            <h1>Mediocre Ending: An Empty Victory</h1> <!-- Page heading indicating the title of the segment -->
         </header>
 
-        <div class="story">
-            <p>You decide not to engage with the diary and instead explore the house. It feels empty, but there’s a lingering sense of being watched. After hours of searching, you find nothing, just dust and decay.</p>
-            <p>Frustrated, you leave the house, wondering if there was something more that you missed.</p>
-            <p>While you escaped unscathed, you can’t shake the feeling that the house’s secrets will remain buried forever.</p>
+        <div class="story"> <!-- Container for the story content -->
+            <p>You decide not to engage with the diary and instead explore the house. It feels empty, but there’s a lingering sense of being watched. After hours of searching, you find nothing, just dust and decay.</p> <!-- Narrates the player's choice and describes the eerie atmosphere -->
+            <p>Frustrated, you leave the house, wondering if there was something more that you missed.</p> <!-- Expresses the player's frustration and sense of mystery -->
+            <p>While you escaped unscathed, you can’t shake the feeling that the house’s secrets will remain buried forever.</p> <!-- Conveys the theme of unresolved mystery and lingering dread -->
         </div>
 
-        <div class="choices">
-            <button onclick="nextPage('index')">Play Again</button>
+        <div class="choices"> <!-- Container for the player’s choices -->
+            <button onclick="nextPage('index')">Play Again</button> <!-- Button that allows the player to return to the main page -->
         </div>
 
         <footer>
-            <p>You survived...but at what cost?</p>
+            <p>You survived...but at what cost?</p> <!-- Reflects on the outcome of the player's choices, adding depth to the narrative -->
         </footer>
     </div>
 
     <script>
-        function nextPage(page) {
-            window.location.href = page + ".html";
+        function nextPage(page) { // JavaScript function for navigating to another page
+            window.location.href = page + ".html"; // Changes the current page to the specified one
         }
     </script>
 </body>
