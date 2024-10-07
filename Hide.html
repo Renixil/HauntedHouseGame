@@ -1,35 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> <!-- Declares the document language as English -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hiding in the Shadows</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8"> <!-- Defines character encoding as UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures proper scaling on different devices -->
+    <title>Hiding in the Shadows</title> <!-- Sets the title of the page -->
+    <link rel="stylesheet" href="styles.css"> <!-- Links the external stylesheet for styles -->
 </head>
 <body>
-    <div class="container">
+    <div class="container"> <!-- Wrapper for the page content -->
         <header>
-            <h1>Hiding Behind the Counter</h1>
+            <h1>Hiding Behind the Counter</h1> <!-- Main heading of the page -->
         </header>
 
-        <div class="story">
+        <div class="story"> <!-- Story content section -->
             <p>You crouch low behind the counter, trying to control your breathing as the sound gets louder. Footsteps echo in the hall, stopping near your hiding spot. You can see a shadow slowly creeping around the corner.</p>
-            <p>The footsteps fade away, but you’re not sure if it’s safe to come out.</p>
+            <p>The footsteps fade away, but you’re not sure if it’s safe to come out.</p> <!-- Describes a tense situation to build suspense -->
         </div>
 
-        <div class="choices">
-            <button onclick="nextPage('StayHidden')">Stay hidden</button>
-            <button onclick="nextPage('CreepOut')">Creep out and investigate</button>
+        <div class="choices"> <!-- Container for the player's choices -->
+            <button onclick="nextPage('StayHidden')">Stay hidden</button> <!-- Button that triggers the 'Stay Hidden' option -->
+            <button onclick="nextPage('CreepOut')">Creep out and investigate</button> <!-- Button that triggers the 'Creep Out' option -->
         </div>
 
         <footer>
-            <p>What will you do now?</p>
+            <p>What will you do now?</p> <!-- Engages the player with a reflective question -->
         </footer>
     </div>
 
     <script>
-        function nextPage(page) {
-            window.location.href = page + ".html";
+        function nextPage(page) { // JavaScript function to navigate to a new page
+            window.location.href = page + ".html"; // Redirects to a new HTML page when a button is clicked
         }
     </script>
 </body>
