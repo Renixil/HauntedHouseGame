@@ -1,34 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bad Ending: Caught by the Shadows</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8"> <!-- Defines the character encoding for the HTML document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures the webpage is responsive on different devices -->
+    <title>Bad Ending: Caught by the Shadows</title> <!-- Title that appears on the browser tab -->
+    <link rel="stylesheet" href="styles.css"> <!-- Links to the external CSS file for styling -->
 </head>
 <body>
-    <div class="container">
+    <div class="container"> <!-- Container for the entire content of the page -->
         <header>
-            <h1>Bad Ending: Caught by the Shadows</h1>
+            <h1>Bad Ending: Caught by the Shadows</h1> <!-- Page heading for this particular bad ending -->
         </header>
 
-        <div class="story">
-            <p>You slowly creep out from behind the counter, curiosity getting the better of you. As you step into the hall, a dark figure lunges at you from the shadows. You try to scream, but no sound escapes.</p>
-            <p>Within moments, everything goes black. The house has claimed another victim.</p>
+        <div class="story"> <!-- Container for the story content -->
+            <p>You slowly creep out from behind the counter, curiosity getting the better of you. As you step into the hall, a dark figure lunges at you from the shadows. You try to scream, but no sound escapes.</p> <!-- Describing the suspenseful moment as the character makes a choice -->
+            <p>Within moments, everything goes black. The house has claimed another victim.</p> <!-- Conveys the finality and hopelessness of the situation -->
         </div>
 
-        <div class="choices">
-            <button onclick="nextPage('index')">Play Again</button>
+        <div class="choices"> <!-- Container for the player’s choices -->
+            <button onclick="nextPage('index')">Play Again</button> <!-- Button that redirects back to the index (start) page -->
         </div>
 
         <footer>
-            <p>Not all who enter the house make it out...</p>
+            <p>Not all who enter the house make it out...</p> <!-- A chilling reminder of the house's danger -->
         </footer>
     </div>
 
     <script>
-        function nextPage(page) {
-            window.location.href = page + ".html";
+        function nextPage(page) { // JavaScript function for navigating to another page
+            window.location.href = page + ".html"; // Changes the current page to the specified one
         }
     </script>
 </body>
