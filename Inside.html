@@ -1,35 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> <!-- Specifies the language of the document (English) -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inside the House</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8"> <!-- Defines the character set (UTF-8) for proper text encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures the page is responsive to different screen sizes -->
+    <title>Inside the House</title> <!-- Page title that shows up in the browser tab -->
+    <link rel="stylesheet" href="styles.css"> <!-- Links to the external CSS file for styling -->
 </head>
 <body>
-    <div class="container">
+    <div class="container"> <!-- Container for all content -->
         <header>
-            <h1>Inside the House</h1>
+            <h1>Inside the House</h1> <!-- Main title of the scene -->
         </header>
 
-        <div class="story">
-            <p>You step inside, and the door slams shut behind you. The house is filled with eerie silence. You notice an old, dusty diary on a nearby table.</p>
-            <p>Do you read the diary, or explore further?</p>
+        <div class="story"> <!-- Section for the story content -->
+            <p>You step inside, and the door slams shut behind you. The house is filled with eerie silence. You notice an old, dusty diary on a nearby table.</p> <!-- Descriptive paragraph for setting the scene -->
+            <p>Do you read the diary, or explore further?</p> <!-- Presents a choice to the player -->
         </div>
 
-        <div class="choices">
-            <button onclick="nextPage('Diary')">Read the diary</button>
-            <button onclick="nextPage('Explore')">Explore further</button>
+        <div class="choices"> <!-- Section for the player's choices -->
+            <button onclick="nextPage('Diary')">Read the diary</button> <!-- Button to navigate to the "Diary" page -->
+            <button onclick="nextPage('Explore')">Explore further</button> <!-- Button to navigate to the "Explore" page -->
         </div>
 
         <footer>
-            <p>What will you uncover in the house?</p>
+            <p>What will you uncover in the house?</p> <!-- Footer text hinting at the mystery -->
         </footer>
     </div>
 
     <script>
-        function nextPage(page) {
-            window.location.href = page + ".html";
+        function nextPage(page) { // JavaScript function to handle page navigation
+            window.location.href = page + ".html"; // Redirects to the selected page
         }
     </script>
 </body>
