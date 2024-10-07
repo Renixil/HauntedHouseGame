@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knock on the Front Door</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>The Front Door Opens...</h1>
+        </header>
+
+        <div class="story">
+            <p>The door creaks open slowly by itself. A cold gust of wind brushes past you. The house is darker than you expected, with only the faintest light coming from deep within. A voice whispers, "Enter..."</p>
+            <p>You hesitate for a moment. Do you trust the voice, or turn back?</p>
+        </div>
+
+        <div class="choices">
+            <button onclick="nextPage('Inside')">Enter the house</button>
+            <button onclick="nextPage('Away')">Run away</button>
+        </div>
+
+        <footer>
+            <p>Every choice matters...</p>
+        </footer>
+    </div>
+
+    <script>
+        function nextPage(page) {
+            window.location.href = page + ".html";
+        }
+    </script>
+</body>
+</html>

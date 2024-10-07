@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ignore the Sound</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Ignoring the Sound</h1>
+        </header>
+
+        <div class="story">
+            <p>You decide to brush off the strange giggling, telling yourself it’s just the wind playing tricks. You continue walking around the house, but the unsettling feeling gnaws at you.</p>
+            <p>The farther you go, the more the shadows around you seem to shift and stretch. The trees sway unnaturally, and you feel eyes on you, watching your every step.</p>
+            <p>Ahead, the back door of the house looms in the distance. It’s slightly ajar, creaking with the wind. Do you dare to approach it, or turn back now?</p>
+        </div>
+
+        <div class="choices">
+            <button onclick="nextPage('BackDoor')">Approach the back door</button>
+            <button onclick="nextPage('Away')">Turn back</button>
+        </div>
+
+        <footer>
+            <p>The house waits patiently for your next move...</p>
+        </footer>
+    </div>
+
+    <script>
+        function nextPage(page) {
+            window.location.href = page + ".html";
+        }
+    </script>
+</body>
+</html>

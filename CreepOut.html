@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bad Ending: Caught by the Shadows</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bad Ending: Caught by the Shadows</h1>
+        </header>
+
+        <div class="story">
+            <p>You slowly creep out from behind the counter, curiosity getting the better of you. As you step into the hall, a dark figure lunges at you from the shadows. You try to scream, but no sound escapes.</p>
+            <p>Within moments, everything goes black. The house has claimed another victim.</p>
+        </div>
+
+        <div class="choices">
+            <button onclick="nextPage('index')">Play Again</button>
+        </div>
+
+        <footer>
+            <p>Not all who enter the house make it out...</p>
+        </footer>
+    </div>
+
+    <script>
+        function nextPage(page) {
+            window.location.href = page + ".html";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bad Ending: Engulfed by the Darkness</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bad Ending: Engulfed by the Darkness</h1>
+        </header>
+
+        <div class="story">
+            <p>Panic overtakes you, and you lunge at the shadowy figure, but your hands pass right through it. The shadow swells, enveloping you in its cold embrace.</p>
+            <p>You scream, but the sound is swallowed by the darkness. The last thing you see is the house fading away as you are consumed.</p>
+        </div>
+
+        <div class="choices">
+            <button onclick="nextPage('index')">Play Again</button>
+        </div>
+
+        <footer>
+            <p>The house has won.</p>
+        </footer>
+    </div>
+
+    <script>
+        function nextPage(page) {
+            window.location.href = page + ".html";
+        }
+    </script>
+</body>
+</html>

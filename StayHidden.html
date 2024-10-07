@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mediocre Ending: A Safe Escape</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Mediocre Ending: A Safe Escape</h1>
+        </header>
+
+        <div class="story">
+            <p>You remain hidden behind the counter for what feels like hours. The sound fades into the distance. After gathering your courage, you finally make a run for the exit.</p>
+            <p>You escape the house unharmed but are left wondering what you missed. The house remains a mystery, and you never discover its secrets.</p>
+        </div>
+
+        <div class="choices">
+            <button onclick="nextPage('index')">Play Again</button>
+        </div>
+
+        <footer>
+            <p>You played it safe, but at what cost?</p>
+        </footer>
+    </div>
+
+    <script>
+        function nextPage(page) {
+            window.location.href = page + ".html";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Empty House</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Mediocre Ending: An Empty Victory</h1>
+        </header>
+
+        <div class="story">
+            <p>You decide not to engage with the diary and instead explore the house. It feels empty, but there’s a lingering sense of being watched. After hours of searching, you find nothing, just dust and decay.</p>
+            <p>Frustrated, you leave the house, wondering if there was something more that you missed.</p>
+            <p>While you escaped unscathed, you can’t shake the feeling that the house’s secrets will remain buried forever.</p>
+        </div>
+
+        <div class="choices">
+            <button onclick="nextPage('index')">Play Again</button>
+        </div>
+
+        <footer>
+            <p>You survived...but at what cost?</p>
+        </footer>
+    </div>
+
+    <script>
+        function nextPage(page) {
+            window.location.href = page + ".html";
+        }
+    </script>
+</body>
+</html>

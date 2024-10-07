@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumed by Darkness</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bad Ending: Consumed by Darkness</h1>
+        </header>
+
+        <div class="story">
+            <p>Terrified, you turn and run, but the house seems to stretch and twist around you. The hallway grows longer, and you can hear footsteps behind you.</p>
+            <p>You stumble, falling to the floor, and the shadow overtakes you. You scream, but no one hears. The house has claimed another victim.</p>
+            <p>Your body will never be found...</p>
+        </div>
+
+        <div class="choices">
+            <button onclick="nextPage('index')">Play Again</button>
+        </div>
+
+        <footer>
+            <p>The house has won.</p>
+        </footer>
+    </div>
+
+    <script>
+        function nextPage(page) {
+            window.location.href = page + ".html";
+        }
+    </script>
+</body>
+</html>

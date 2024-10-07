@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haunted House Investigation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to the Haunted House</h1>  
+            <p>Are you ready to uncover its secrets?</p>
+        </header>
+
+        <div class="story">
+            <p>You are a detective investigating strange noise complaints from a mysterious, abandoned house in the middle of town. As you approach, you feel a chilling wind and hear whispers from within. What do you do?</p>
+        </div>
+
+        <div class="choices">
+            <button onclick="nextPage('Knock')">Knock on the front door</button>
+            <button onclick="nextPage('Investigate')">Investigate the yard</button>
+            <button onclick="nextPage('Sneak')">Sneak in through the back</button>
+        </div>
+
+        <footer>
+            <p>Choose wisely, or you may never leave...</p>
+        </footer>
+    </div>
+
+    <script>
+        function nextPage(page) {
+            window.location.href = page + ".html";
+        }
+    </script>
+</body>
+</html>

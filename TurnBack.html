@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mediocre Ending: Turning Back</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Mediocre Ending: Turning Back</h1>
+        </header>
+
+        <div class="story">
+            <p>You take a deep breath and decide that whatever awaits inside the house is not worth the risk. You turn back the way you came, quickening your pace.</p>
+            <p>The wind howls behind you as if it’s trying to pull you back, but you don’t stop. Soon, you’re back at the entrance of the yard, your heartbeat finally slowing.</p>
+            <p>You escape the house unscathed, but a gnawing sense of regret lingers. What could you have uncovered if you had dared to enter?</p>
+        </div>
+
+        <div class="choices">
+            <button onclick="nextPage('index')">Play Again</button>
+        </div>
+
+        <footer>
+            <p>You’ve escaped the house’s dangers... but the mystery remains unsolved.</p>
+        </footer>
+    </div>
+
+    <script>
+        function nextPage(page) {
+            window.location.href = page + ".html";
+        }
+    </script>
+</body>
+</html>

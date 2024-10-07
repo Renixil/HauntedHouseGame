@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inside the House</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Inside the House</h1>
+        </header>
+
+        <div class="story">
+            <p>You step inside, and the door slams shut behind you. The house is filled with eerie silence. You notice an old, dusty diary on a nearby table.</p>
+            <p>Do you read the diary, or explore further?</p>
+        </div>
+
+        <div class="choices">
+            <button onclick="nextPage('Diary')">Read the diary</button>
+            <button onclick="nextPage('Explore')">Explore further</button>
+        </div>
+
+        <footer>
+            <p>What will you uncover in the house?</p>
+        </footer>
+    </div>
+
+    <script>
+        function nextPage(page) {
+            window.location.href = page + ".html";
+        }
+    </script>
+</body>
+</html>
