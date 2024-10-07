@@ -1,36 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> <!-- Declares the language of the document -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Dark Secret</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8"> <!-- Defines the character encoding for the HTML document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures the webpage is responsive on different devices -->
+    <title>The Dark Secret</title> <!-- Title that appears on the browser tab -->
+    <link rel="stylesheet" href="styles.css"> <!-- Links to the external CSS file for styling -->
 </head>
 <body>
-    <div class="container">
+    <div class="container"> <!-- Container for the entire content of the page -->
         <header>
-            <h1>The Diary Reveals All</h1>
+            <h1>The Diary Reveals All</h1> <!-- Page heading indicating the title of the segment -->
         </header>
 
-        <div class="story">
-            <p>The diary tells the tale of a family that once lived here. Strange, unexplained events drove them to madness. The youngest child went missing, and no one ever found him.</p>
-            <p>As you finish reading, a chill runs down your spine. Something is watching you from the darkened hallway.</p>
-            <p>Do you confront it, or run?</p>
+        <div class="story"> <!-- Container for the story content -->
+            <p>The diary tells the tale of a family that once lived here. Strange, unexplained events drove them to madness. The youngest child went missing, and no one ever found him.</p> <!-- Sets the eerie mood by narrating the tragic history of the house -->
+            <p>As you finish reading, a chill runs down your spine. Something is watching you from the darkened hallway.</p> <!-- Builds suspense and tension -->
+            <p>Do you confront it, or run?</p> <!-- Presents the player with a choice, adding interactivity to the story -->
         </div>
 
-        <div class="choices">
-            <button onclick="nextPage('Confront')">Confront it</button>
-            <button onclick="nextPage('Run')">Run</button>
+        <div class="choices"> <!-- Container for the player’s choices -->
+            <button onclick="nextPage('Confront')">Confront it</button> <!-- Button that allows the player to confront the mysterious entity -->
+            <button onclick="nextPage('Run')">Run</button> <!-- Button that allows the player to choose to run away -->
         </div>
 
         <footer>
-            <p>The shadows close in...</p>
+            <p>The shadows close in...</p> <!-- Foreshadowing danger, enhancing the story's ominous atmosphere -->
         </footer>
     </div>
 
     <script>
-        function nextPage(page) {
-            window.location.href = page + ".html";
+        function nextPage(page) { // JavaScript function for navigating to another page
+            window.location.href = page + ".html"; // Changes the current page to the specified one
         }
     </script>
 </body>
