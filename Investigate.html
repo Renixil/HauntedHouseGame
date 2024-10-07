@@ -3,34 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Investigate the Yard</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Special+Elite&display=swap" rel="stylesheet">
+    <title>Investigate the Yard</title> <!-- Page title for the browser tab -->
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS file for styling -->
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Special+Elite&display=swap" rel="stylesheet"> <!-- Google Fonts links for Nosifer and Special Elite font styles -->
 </head>
 <body>
-    <div class="container">
+    <div class="container"> <!-- Main container to wrap content -->
         <header>
-            <h1>The Shadows of the Yard</h1>
+            <h1>The Shadows of the Yard</h1> <!-- Scene title -->
         </header>
 
-        <div class="story">
-            <p>The yard is overgrown with tall grass and twisted trees. The wind howls through the branches, and you notice strange shapes moving just out of sight. Suddenly, a child's voice giggles from behind you. You turn, but no one is there.</p>
-            <p>Do you investigate the sound, or continue around the house?</p>
+        <div class="story"> <!-- Section for storytelling -->
+            <p>The yard is overgrown with tall grass and twisted trees. The wind howls through the branches, and you notice strange shapes moving just out of sight. Suddenly, a child's voice giggles from behind you. You turn, but no one is there.</p> <!-- Spooky descriptive text to set the tone -->
+            <p>Do you investigate the sound, or continue around the house?</p> <!-- Presents the player's choice -->
         </div>
 
-        <div class="choices">
-            <button onclick="nextPage('Inside')">Investigate the sound</button>
-            <button onclick="nextPage('Ignore')">Ignore it and move on</button>
+        <div class="choices"> <!-- Section for the interactive choices -->
+            <button onclick="nextPage('Inside')">Investigate the sound</button> <!-- Button to navigate to the 'Inside' page -->
+            <button onclick="nextPage('Ignore')">Ignore it and move on</button> <!-- Button to navigate to the 'Ignore' page -->
         </div>
 
         <footer>
-            <p>The yard seems to breathe...</p>
+            <p>The yard seems to breathe...</p> <!-- Footer text to add suspense -->
         </footer>
     </div>
 
     <script>
-        function nextPage(page) {
-            window.location.href = page + ".html";
+        function nextPage(page) { // JavaScript function for page navigation
+            window.location.href = page + ".html"; // Redirects to the selected page
         }
     </script>
 </body>
