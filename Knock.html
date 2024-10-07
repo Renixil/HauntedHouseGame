@@ -3,34 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Knock on the Front Door</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Special+Elite&display=swap" rel="stylesheet">
+    <title>Knock on the Front Door</title> <!-- Page title for browser tab -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external stylesheet -->
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Special+Elite&display=swap" rel="stylesheet"> <!-- Google Fonts for Nosifer and Special Elite to match the spooky theme -->
 </head>
 <body>
-    <div class="container">
+    <div class="container"> <!-- Main container wrapping the content -->
         <header>
-            <h1>The Front Door Opens...</h1>
+            <h1>The Front Door Opens...</h1> <!-- Scene title, setting the mood -->
         </header>
 
-        <div class="story">
-            <p>The door creaks open slowly by itself. A cold gust of wind brushes past you. The house is darker than you expected, with only the faintest light coming from deep within. A voice whispers, "Enter..."</p>
-            <p>You hesitate for a moment. Do you trust the voice, or turn back?</p>
+        <div class="story"> <!-- Story content area -->
+            <p>The door creaks open slowly by itself. A cold gust of wind brushes past you. The house is darker than you expected, with only the faintest light coming from deep within. A voice whispers, "Enter..."</p> <!-- Eerie description to engage the player -->
+            <p>You hesitate for a moment. Do you trust the voice, or turn back?</p> <!-- Presenting the player's decision moment -->
         </div>
 
-        <div class="choices">
-            <button onclick="nextPage('Inside')">Enter the house</button>
-            <button onclick="nextPage('Away')">Run away</button>
+        <div class="choices"> <!-- Choices for the player -->
+            <button onclick="nextPage('Inside')">Enter the house</button> <!-- Button that takes the player to the "Inside" page -->
+            <button onclick="nextPage('Away')">Run away</button> <!-- Button that takes the player to the "Away" page -->
         </div>
 
         <footer>
-            <p>Every choice matters...</p>
+            <p>Every choice matters...</p> <!-- Footer text adds tension -->
         </footer>
     </div>
 
     <script>
-        function nextPage(page) {
-            window.location.href = page + ".html";
+        function nextPage(page) { // JavaScript function for page navigation
+            window.location.href = page + ".html"; // Redirects to the chosen page based on player's decision
         }
     </script>
 </body>
