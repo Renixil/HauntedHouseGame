@@ -3,33 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facing the Unknown</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Facing the Unknown</title> <!-- Title of the current page -->
+    <link rel="stylesheet" href="styles.css"> <!-- External stylesheet for consistent design -->
 </head>
 <body>
-    <div class="container">
+    <div class="container"> <!-- Main container -->
         <header>
-            <h1>Confronting the Noise</h1>
+            <h1>Confronting the Noise</h1> <!-- Heading sets up the scene -->
         </header>
 
-        <div class="story">
-            <p>Summoning your courage, you decide to confront the noise head-on. You march toward the source of the sound, heart pounding in your chest. The air grows colder as you approach.</p>
-            <p>Suddenly, a shadowy figure materializes in front of you. You can feel its cold gaze on you.</p>
+        <div class="story"> <!-- Story section -->
+            <p>Summoning your courage, you decide to confront the noise head-on. You march toward the source of the sound, heart pounding in your chest. The air grows colder as you approach.</p> <!-- Building tension and atmosphere -->
+            <p>Suddenly, a shadowy figure materializes in front of you. You can feel its cold gaze on you.</p> <!-- Mysterious figure introduces danger or a choice -->
         </div>
 
-        <div class="choices">
-            <button onclick="nextPage('Speak')">Speak to it</button>
-            <button onclick="nextPage('Attack')">Attack it</button>
+        <div class="choices"> <!-- Choice buttons -->
+            <button onclick="nextPage('Speak')">Speak to it</button> <!-- First choice: player can speak to the figure -->
+            <button onclick="nextPage('Attack')">Attack it</button> <!-- Second choice: player can choose aggression and attack -->
         </div>
 
         <footer>
-            <p>The unknown awaits...</p>
+            <p>The unknown awaits...</p> <!-- Footer adds suspense -->
         </footer>
     </div>
 
     <script>
-        function nextPage(page) {
-            window.location.href = page + ".html";
+        function nextPage(page) { // JavaScript function for page navigation
+            window.location.href = page + ".html"; // Redirects to the next page based on the player's choice
         }
     </script>
 </body>
