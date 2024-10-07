@@ -1,35 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consumed by Darkness</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8"> <!-- Specifies the character encoding for the HTML document -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Sets the viewport for responsive design -->
+    <title>Consumed by Darkness</title> <!-- Title displayed on the browser tab -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file for styling the page -->
 </head>
 <body>
-    <div class="container">
+    <div class="container"> <!-- Main container for the content of the page -->
         <header>
-            <h1>Bad Ending: Mystery Unsolved</h1>
+            <h1>Bad Ending: Mystery Unsolved</h1> <!-- Main heading for the bad ending scenario -->
         </header>
 
-        <div class="story">
-            <p>You left the mysterious house never knowing what the complaint is all about.</p>
-            <p>You return to the police department but due to the number of complaints,</p>
-            <p>You were fired.</p>
+        <div class="story"> <!-- Container for the story text -->
+            <p>You left the mysterious house never knowing what the complaint is all about.</p> <!-- Introduction to the bad ending -->
+            <p>You return to the police department but due to the number of complaints,</p> <!-- Transition to the consequence of leaving the house -->
+            <p>You were fired.</p> <!-- Conclusion of the story, emphasizing the negative outcome -->
         </div>
 
-        <div class="choices">
-            <button onclick="nextPage('index')">Play Again</button>
+        <div class="choices"> <!-- Container for user choices -->
+            <button onclick="nextPage('index')">Play Again</button> <!-- Button to restart the game by navigating to the index page -->
         </div>
 
         <footer>
-            <p>The house has won.</p>
+            <p>The house has won.</p> <!-- Footer text summarizing the ending -->
         </footer>
     </div>
 
     <script>
-        function nextPage(page) {
-            window.location.href = page + ".html";
+        function nextPage(page) { // Function to navigate to another page
+            window.location.href = page + ".html"; // Redirects the user to the specified HTML page
         }
     </script>
 </body>
