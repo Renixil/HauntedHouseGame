@@ -3,34 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sneak in Through the Back</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Special+Elite&display=swap" rel="stylesheet">
+    <title>Sneak in Through the Back</title> <!-- Page title -->
+    <link rel="stylesheet" href="styles.css"> <!-- External stylesheet -->
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Special+Elite&display=swap" rel="stylesheet"> <!-- Special font for a creepy atmosphere -->
 </head>
 <body>
-    <div class="container">
+    <div class="container"> <!-- Main content container -->
         <header>
-            <h1>The Back Door</h1>
+            <h1>The Back Door</h1> <!-- Heading -->
         </header>
 
-        <div class="story">
-            <p>You sneak around to the back of the house. The door is ajar, leading into a dimly lit kitchen. Broken plates litter the floor, and an odd smell fills the air. As you step inside, the door slams shut behind you. Suddenly, the lights flicker, and you hear footsteps approaching.</p>
-            <p>Do you hide, or confront whoever—or whatever—is coming?</p>
+        <div class="story"> <!-- Story content -->
+            <p>You sneak around to the back of the house. The door is ajar, leading into a dimly lit kitchen. Broken plates litter the floor, and an odd smell fills the air. As you step inside, the door slams shut behind you. Suddenly, the lights flicker, and you hear footsteps approaching.</p> <!-- Description sets a tense and eerie scene -->
+            <p>Do you hide, or confront whoever—or whatever—is coming?</p> <!-- Presents a choice for the player -->
         </div>
 
-        <div class="choices">
-            <button onclick="nextPage('Hide')">Hide behind the counter</button>
-            <button onclick="nextPage('Noise')">Confront the noise</button>
+        <div class="choices"> <!-- Choice buttons -->
+            <button onclick="nextPage('Hide')">Hide behind the counter</button> <!-- Player can choose to hide -->
+            <button onclick="nextPage('Noise')">Confront the noise</button> <!-- Player can choose to confront the noise -->
         </div>
 
         <footer>
-            <p>What lurks in the darkness?</p>
+            <p>What lurks in the darkness?</p> <!-- Footer adding suspense -->
         </footer>
     </div>
 
     <script>
-        function nextPage(page) {
-            window.location.href = page + ".html";
+        function nextPage(page) { // JavaScript function to navigate between pages
+            window.location.href = page + ".html"; // Redirect to the corresponding page based on the player's choice
         }
     </script>
 </body>
