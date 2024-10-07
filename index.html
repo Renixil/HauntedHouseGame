@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Haunted House Investigation</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Special+Elite&display=swap" rel="stylesheet">
+    <meta charset="UTF-8"> <!-- Character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive design -->
+    <title>Haunted House Investigation</title> <!-- Page title -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS stylesheet -->
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Special+Elite&display=swap" rel="stylesheet"> <!-- Link to Google Fonts -->
 </head>
 <body>
-    <div class="container">
+    <div class="container"> <!-- Main container for content -->
         <header>
-            <h1>Welcome to the Haunted House</h1>  
-            <p>Are you ready to uncover its secrets?</p>
+            <h1>Welcome to the Haunted House</h1>  <!-- Main heading -->
+            <p>Are you ready to uncover its secrets?</p> <!-- Subheading to engage the player -->
         </header>
 
-        <div class="story">
-            <p>You are a detective investigating strange noise complaints from a mysterious, abandoned house in the middle of town. As you approach, you feel a chilling wind and hear whispers from within. What do you do?</p>
+        <div class="story"> <!-- Story content section -->
+            <p>You are a detective investigating strange noise complaints from a mysterious, abandoned house in the middle of town. As you approach, you feel a chilling wind and hear whispers from within. What do you do?</p> <!-- Engaging narrative setup -->
         </div>
 
-        <div class="choices">
-            <button onclick="nextPage('Knock')">Knock on the front door</button>
-            <button onclick="nextPage('Investigate')">Investigate the yard</button>
-            <button onclick="nextPage('Sneak')">Sneak in through the back</button>
+        <div class="choices"> <!-- Choices for player action -->
+            <button onclick="nextPage('Knock')">Knock on the front door</button> <!-- Option to knock -->
+            <button onclick="nextPage('Investigate')">Investigate the yard</button> <!-- Option to investigate -->
+            <button onclick="nextPage('Sneak')">Sneak in through the back</button> <!-- Option to sneak in -->
         </div>
 
         <footer>
-            <p>Choose wisely, or you may never leave...</p>
+            <p>Choose wisely, or you may never leave...</p> <!-- Concluding thought that adds tension -->
         </footer>
     </div>
 
     <script>
-        function nextPage(page) {
-            window.location.href = page + ".html";
+        function nextPage(page) { // JavaScript function for navigation
+            window.location.href = page + ".html"; // Redirects to the selected page
         }
     </script>
 </body>
