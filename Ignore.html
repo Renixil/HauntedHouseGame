@@ -1,37 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> <!-- Declares the document language as English -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ignore the Sound</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8"> <!-- Defines character encoding as UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures proper scaling on mobile devices -->
+    <title>Ignore the Sound</title> <!-- Page title -->
+    
+    <!-- Links to Google Fonts for custom typography -->
+    <link rel="stylesheet" href="styles.css"> <!-- Links external CSS file for styling -->
     <link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Special+Elite&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
+    <div class="container"> <!-- Main container for the page -->
         <header>
-            <h1>Ignoring the Sound</h1>
+            <h1>Ignoring the Sound</h1> <!-- Page title displayed as the main heading -->
         </header>
 
-        <div class="story">
+        <div class="story"> <!-- Story content section -->
             <p>You decide to brush off the strange giggling, telling yourself it’s just the wind playing tricks. You continue walking around the house, but the unsettling feeling gnaws at you.</p>
             <p>The farther you go, the more the shadows around you seem to shift and stretch. The trees sway unnaturally, and you feel eyes on you, watching your every step.</p>
             <p>Ahead, the back door of the house looms in the distance. It’s slightly ajar, creaking with the wind. Do you dare to approach it, or turn back now?</p>
         </div>
 
-        <div class="choices">
-            <button onclick="nextPage('BackDoor')">Approach the back door</button>
-            <button onclick="nextPage('Away')">Turn back</button>
+        <div class="choices"> <!-- Options for the player -->
+            <button onclick="nextPage('BackDoor')">Approach the back door</button> <!-- Button to proceed to the back door -->
+            <button onclick="nextPage('Away')">Turn back</button> <!-- Button to choose turning back -->
         </div>
 
         <footer>
-            <p>The house waits patiently for your next move...</p>
+            <p>The house waits patiently for your next move...</p> <!-- Adds to the ominous atmosphere -->
         </footer>
     </div>
 
     <script>
+        // Function to handle page navigation
         function nextPage(page) {
-            window.location.href = page + ".html";
+            window.location.href = page + ".html"; // Redirects to the next page depending on the button clicked
         }
     </script>
 </body>
